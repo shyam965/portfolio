@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.container{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background:white;
+}
+nav{
+    display: flex;
+    width:84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+}
+.detail{
+    margin-left:10%;
+    margin-top: 12%;
+}
+.detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 16px;
+    
+}
+span{
+    color: orangered;
+    
+}
+.detail p{
+    font-size: 50px;
+}
+.detail a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width:45%;
+    height:80%;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.images img{
+    height: 80%;
+    position:absolute;
+    left:40%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: top 1s,left 1s;
+}
+.about{
+    width:45%;
+    height:50%;
+    position: relative;
+    margin-top: 10%;
+    right: 100px;
+    
+}
+.about img{
+    width: 300px;
+    height:350px;
+    border-radius: 15px;
+    margin-left: 50%;
+    
+    
+}
+.main-about{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10%;
+}
+.section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    word-spacing: 12px;
+    color:#4070F4;
+    border-bottom: 2px solid #4070F4;    
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.col-left{
+    width: 50%;
+    float: left;
+}
+.col-right{
+    width:50%;
+    float: right;
+    
+    
+}
+.about p{
+    text-align: left;
+    float: left;
+    width: auto;
+    font-size: 15px;
+    margin-left:50%;
+
+    
+}
+.intro-name{
+    float: right;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 5%;
+}
+.skill-section{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top:100px ;
+    margin: 10px;
+}
+
+.skill{
+    margin: 50px ;
+}
+
+.skill ul {
+    text-align: left;
+    float: left;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 5%;
+    
+        
+}
